@@ -5,31 +5,31 @@ Write a Python program to create a person class. Include attributes like name, c
 """
 
 
-# class Person:
-#     def __init__(self, name, country, dob):
-#         self.name = name
-#         self.country = country
-#         self.dob = dob
+class Person:
+    def __init__(self, name, country, dob):
+        self.name = name
+        self.country = country
+        self.dob = dob
 
-#         # self.age_dob()
+        # self.age_dob()
 
-#     def age_dob(self):
-#         d = self.dob.split("-")
-#         date = int(d[0])
-#         month=int(d[1])
-#         year=int(d[2])
-#         c_year=2025
-#         c_m=9
-#         c_d=6
-#         age = c_year-year
-#         if c_m <month and c_d<date :
-#             age-=1
-#         return age
+    def age_dob(self):
+        d = self.dob.split("-")
+        date = int(d[0])
+        month=int(d[1])
+        year=int(d[2])
+        c_year=2025
+        c_m=9
+        c_d=6
+        age = c_year-year
+        if c_m <month and c_d<date :
+            age-=1
+        return age
 
-# person = Person("Joy", "BD", "10-08-2001")
-# age = person.age_dob()
-# print(person.name," ",person.country," ","dob: ",person.dob)
-# print("\nAge: ",age)
+person = Person("Joy", "BD", "10-08-2001")
+age = person.age_dob()
+print(person.name," ",person.country," ","dob: ",person.dob)
+print("\nAge: ",age)
 
 print("---------------")
 print("Version-------")
