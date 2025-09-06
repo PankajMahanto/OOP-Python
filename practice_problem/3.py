@@ -3,6 +3,7 @@
 
 Write a Python program to create a calculator class. Include methods for basic arithmetic operations.
 '''
+##! Make simple calculator
 class Calculator:
     def __init__(self,a,b):
         self.a=a
