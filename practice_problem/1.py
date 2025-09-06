@@ -8,7 +8,7 @@ Write a Python program to create a class representing a Circle. Include methods 
 import math
 class Circle:
     
-    
+    #constructor
     def __init__(self,r):
         self.r=r
         self.Area()
