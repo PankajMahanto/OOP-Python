@@ -26,6 +26,7 @@ class Circle(Shape):
         
         
 
+#! inheritance
 class Rectangle(Shape):
     def __init__(self,w,h):
         self.w=w
